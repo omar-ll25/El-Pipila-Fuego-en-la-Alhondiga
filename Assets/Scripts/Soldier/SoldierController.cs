@@ -5,19 +5,22 @@ public class SoldierController : MonoBehaviour
 {
     [SerializeField] Animator animator;
 
+    [SerializeField] string shootStateName = "Shoot";
+    [SerializeField] string idleStateName = "Idle";
+
     [SerializeField] float fireInterval = 2f;
     [SerializeField] float shootAnimDuration = 0.2f;
     [SerializeField] Vector2 shootDirection = new Vector2(1f, -1f).normalized;
 
-    /// <summary>
-    /// BulletHandling
-    /// </summary>
     [SerializeField] int bulletDamage = 1;
     [SerializeField] float bulletSpeed = 5f;
     [SerializeField] float bulletDestroyDelay = 3f;
     [SerializeField] Transform bulletShootPos;
     [SerializeField] GameObject bulletPrefab;
 
+    [Header("Comportamiento de bala (Strategy)")]
+    [SerializeField] bool bulletsBounce = false;
+    [SerializeField] int maxBounces = 2;
     float fireTimer;
 
     void Awake()
@@ -38,10 +41,10 @@ public class SoldierController : MonoBehaviour
 
     IEnumerator ShootRoutine()
     {
-        animator.Play("Shoot");
+        animator.Play(shootStateName);
         ShootBullet();
         yield return new WaitForSeconds(shootAnimDuration);
-        animator.Play("Idle");
+        animator.Play(idleStateName);
     }
 
     void ShootBullet()
@@ -54,6 +57,12 @@ public class SoldierController : MonoBehaviour
         bulletScript.SetBulletSpeed(bulletSpeed);
         bulletScript.SetBulletDirection(shootDirection);
         bulletScript.SetDestroyDelay(bulletDestroyDelay);
+
+        if (bulletsBounce)
+            bulletScript.SetMovementStrategy(new BouncingBulletStrategy(maxBounces));
+        else
+            bulletScript.SetMovementStrategy(new StraightBulletStrategy());
+
         bulletScript.Shoot();
     }
 }

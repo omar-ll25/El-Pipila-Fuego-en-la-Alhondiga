@@ -1,73 +1,40 @@
 fileFormatVersion: 2
-guid: 2b2f386e9dbb98746bbb98c4560b4df6
+guid: a82f65b6939dd4f4791393074688394d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4944230376442633554
-    second: Run_0
+      213: -1436833277108644322
+    second: FirePlace_0
   - first:
-      213: -2274363484027164459
-    second: Run_1
+      213: -5635806054791986957
+    second: FirePlace_1
   - first:
-      213: 8284087734974297348
-    second: Run_2
+      213: 1859037900524586067
+    second: FirePlace_2
   - first:
-      213: 5304202850863732263
-    second: Run_3
+      213: 6138991034702537186
+    second: FirePlace_3
   - first:
-      213: 2833043080597125133
-    second: Run_4
+      213: 4673689638947884779
+    second: FirePlace_4
   - first:
-      213: -2217414122262695004
-    second: Run_5
+      213: 8164229149927474094
+    second: FirePlace_5
   - first:
-      213: -4440497016933152808
-    second: Run_6
+      213: -6073447826237031479
+    second: FirePlace_6
   - first:
-      213: 8676454946275842879
-    second: Run_7
+      213: -4675122136970679669
+    second: FirePlace_7
   - first:
-      213: -6351944509545543589
-    second: Run_8
+      213: -2252479708759827925
+    second: FirePlace_8
   - first:
-      213: 2158891789428380870
-    second: Run_9
+      213: -7875700899006341695
+    second: FirePlace_9
   - first:
-      213: 9151066736925549315
-    second: Run_10
-  - first:
-      213: -7266845314124737194
-    second: Run_11
-  - first:
-      213: -5168576596277122810
-    second: Run_12
-  - first:
-      213: -7303085922518154401
-    second: Run_13
-  - first:
-      213: -3387832490922303652
-    second: Run_14
-  - first:
-      213: 2196459547150753776
-    second: Run_15
-  - first:
-      213: -2969576599511150121
-    second: Run_16
-  - first:
-      213: -1100304572229716114
-    second: Run_17
-  - first:
-      213: -1286830556838052669
-    second: Run_18
-  - first:
-      213: -4740722875278701659
-    second: Run_19
-  - first:
-      213: -6219685122133649782
-    second: Run_20
-  - first:
-      213: -5210376377794636309
-    second: Run_21
+      213: 7450720200873798884
+    second: FirePlace_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -114,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 49
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -176,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run_0
+      name: FirePlace_0
       rect:
         serializedVersion: 2
-        x: 1141
-        y: 166
-        width: 211
-        height: 317
+        x: 46
+        y: 99
+        width: 445
+        height: 536
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25d1f8be45f6d9440800000000000000
-      internalID: 4944230376442633554
+      spriteID: e169a744fb75f0ce0800000000000000
+      internalID: -1436833277108644322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_1
+      name: FirePlace_1
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 166
-        width: 237
-        height: 317
+        x: 586
+        y: 99
+        width: 453
+        height: 535
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d8e07c1676df60e0800000000000000
-      internalID: -2274363484027164459
+      spriteID: 3f0c021c04899c1b0800000000000000
+      internalID: -5635806054791986957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_2
+      name: FirePlace_2
       rect:
         serializedVersion: 2
-        x: 814
-        y: 194
-        width: 266
-        height: 305
+        x: 1122
+        y: 98
+        width: 457
+        height: 536
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 405305b67edf6f270800000000000000
-      internalID: 8284087734974297348
+      spriteID: 35481c4fe11acc910800000000000000
+      internalID: 1859037900524586067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run_3
+      name: FirePlace_6
       rect:
         serializedVersion: 2
-        x: 1905
-        y: 175
-        width: 230
-        height: 299
+        x: 1672
+        y: 99
+        width: 451
+        height: 536
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,30 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 726d856d3605c9940800000000000000
-      internalID: 5304202850863732263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_4
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 178
-        width: 275
-        height: 312
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e09b5eff31c828544abc812377990c67
-      internalID: 2833043080597125133
+      spriteID: 9cbf54b6167c6bba0800000000000000
+      internalID: -6073447826237031479
       vertices: []
       indices: 
       edges: []
@@ -289,7 +234,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0d6db435c97dd844e89a1fa9e395b196
+    spriteID: 0eba7f42c257236438f062147bcd4b80
     internalID: 0
     vertices: []
     indices: 
@@ -299,28 +244,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Run_0: 4944230376442633554
-      Run_1: -2274363484027164459
-      Run_10: 9151066736925549315
-      Run_11: -7266845314124737194
-      Run_12: -5168576596277122810
-      Run_13: -7303085922518154401
-      Run_14: -3387832490922303652
-      Run_15: 2196459547150753776
-      Run_16: -2969576599511150121
-      Run_17: -1100304572229716114
-      Run_18: -1286830556838052669
-      Run_19: -4740722875278701659
-      Run_2: 8284087734974297348
-      Run_20: -6219685122133649782
-      Run_21: -5210376377794636309
-      Run_3: 5304202850863732263
-      Run_4: 2833043080597125133
-      Run_5: -2217414122262695004
-      Run_6: -4440497016933152808
-      Run_7: 8676454946275842879
-      Run_8: -6351944509545543589
-      Run_9: 2158891789428380870
+      FirePlace_0: -1436833277108644322
+      FirePlace_1: -5635806054791986957
+      FirePlace_10: 7450720200873798884
+      FirePlace_2: 1859037900524586067
+      FirePlace_3: 6138991034702537186
+      FirePlace_4: 4673689638947884779
+      FirePlace_5: 8164229149927474094
+      FirePlace_6: -6073447826237031479
+      FirePlace_7: -4675122136970679669
+      FirePlace_8: -2252479708759827925
+      FirePlace_9: -7875700899006341695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

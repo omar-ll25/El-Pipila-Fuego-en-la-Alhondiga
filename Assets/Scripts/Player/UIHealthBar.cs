@@ -5,24 +5,22 @@ using UnityEngine.UI;
 
 public class UIHealthBar : MonoBehaviour
 {
-    public Image mask;
-    float originalSize;
+    public Image[] hearts;
 
     public static UIHealthBar instance { get; private set; }
 
     private void Awake()
     {
-        instance = this; 
-    }
-
-    private void Start()
-    {
-        originalSize = mask.rectTransform.rect.height;
+        instance = this;
     }
 
     public void SetValue(float value)
     {
-        mask.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, originalSize * value);
+        int activeHearts = Mathf.RoundToInt(value * hearts.Length);
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i].gameObject.SetActive(i < activeHearts);
+        }
     }
 
 }

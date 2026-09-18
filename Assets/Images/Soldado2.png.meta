@@ -1,52 +1,67 @@
 fileFormatVersion: 2
-guid: b55d9185ea719d2489aa0c6c4ad9c083
+guid: f8ace2e84cabb4f47b66fab2e1e9ec87
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7930355650201923474
-    second: Run1_0
+      213: 114093783641499759
+    second: Soldado2_0
   - first:
-      213: 5992523249219935766
-    second: Run1_1
+      213: -6520603105707451664
+    second: Soldado2_1
   - first:
-      213: -2267101933115109990
-    second: Run1_2
+      213: -8041943016541802303
+    second: Soldado2_2
   - first:
-      213: -4269723693096132814
-    second: Run1_3
+      213: -6190801820197380009
+    second: Soldado2_3
   - first:
-      213: 8477670084377810836
-    second: Run1_4
+      213: -1198963778409029720
+    second: Soldado2_4
   - first:
-      213: -9099976493406203223
-    second: Run1_5
+      213: 6457581105837175692
+    second: Soldado2_5
   - first:
-      213: 6265891402719062413
-    second: Run1_6
+      213: 8291097510369305011
+    second: Soldado2_6
   - first:
-      213: 9096164580636040784
-    second: Run1_7
+      213: -2435564628401735729
+    second: Soldado2_7
   - first:
-      213: 1737081220789982820
-    second: Run1_8
+      213: -5922652383305654925
+    second: Soldado2_8
   - first:
-      213: 584349429725740261
-    second: Run1_9
+      213: 1959924356377558407
+    second: Soldado2_9
   - first:
-      213: -8286261078379028219
-    second: Run1_10
+      213: -6072189592471806514
+    second: Soldado2_10
   - first:
-      213: -7360222286641827292
-    second: Run1_11
+      213: 3350695653640921157
+    second: Soldado2_11
   - first:
-      213: -3983297761216763063
-    second: Run1_12
+      213: -3981975271852554488
+    second: Soldado2_12
   - first:
-      213: 196735800108459849
-    second: Run1_13
+      213: -9222208696553371977
+    second: Soldado2_13
   - first:
-      213: 8580767039930457843
-    second: Run1_14
+      213: -8414527494286847224
+    second: Soldado2_14
+  - first:
+      213: 8060274112084057524
+    second: Soldado2_15
+  - first:
+      213: 6918662605219769324
+    second: Soldado2_16
+  - first:
+      213: -397461431495919504
+    second: Soldado2_17
+  - first:
+      213: 7160686587947513145
+    second: Soldado2_18
+  - first:
+      213: -8622274146797842871
+    second: Soldado2_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 49
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,89 +170,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run1_0
+      name: Soldado2_0
       rect:
         serializedVersion: 2
-        x: 641
-        y: 141
-        width: 204
-        height: 335
+        x: 101
+        y: 55
+        width: 608
+        height: 701
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e60d33f8d87b1f190800000000000000
-      internalID: -7930355650201923474
+      spriteID: f68280511b7559100800000000000000
+      internalID: 114093783641499759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run1_1
+      name: Soldado2_1
       rect:
         serializedVersion: 2
-        x: 1651
-        y: 128
-        width: 255
-        height: 336
+        x: 829
+        y: 53
+        width: 762
+        height: 700
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61e160a3528b92350800000000000000
-      internalID: 5992523249219935766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run1_2
-      rect:
-        serializedVersion: 2
-        x: 846
-        y: 142
-        width: 279
-        height: 341
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9d821fadc2a980e0800000000000000
-      internalID: -2267101933115109990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run1_3
-      rect:
-        serializedVersion: 2
-        x: 1908
-        y: 136
-        width: 254
-        height: 327
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23f9fef4ce4eeb4c0800000000000000
-      internalID: -4269723693096132814
+      spriteID: 0fa9ff2e50a2285a0800000000000000
+      internalID: -6520603105707451664
       vertices: []
       indices: 
       edges: []
@@ -246,7 +217,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6d3344ff90058e64d850ce1b956798ea
+    spriteID: bf932e16d751f7d47961499f35de0254
     internalID: 0
     vertices: []
     indices: 
@@ -256,22 +227,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Run1_0: -7930355650201923474
-      Run1_1: 5992523249219935766
-      Run1_10: -8286261078379028219
-      Run1_11: -7360222286641827292
-      Run1_12: -3983297761216763063
-      Run1_13: 196735800108459849
-      Run1_14: 8580767039930457843
-      Run1_15: -376816333
-      Run1_2: -2267101933115109990
-      Run1_3: -4269723693096132814
-      Run1_4: 8477670084377810836
-      Run1_5: -9099976493406203223
-      Run1_6: 6265891402719062413
-      Run1_7: 9096164580636040784
-      Run1_8: 1737081220789982820
-      Run1_9: 584349429725740261
+      Soldado2_0: 114093783641499759
+      Soldado2_1: -6520603105707451664
+      Soldado2_10: -6072189592471806514
+      Soldado2_11: 3350695653640921157
+      Soldado2_12: -3981975271852554488
+      Soldado2_13: -9222208696553371977
+      Soldado2_14: -8414527494286847224
+      Soldado2_15: 8060274112084057524
+      Soldado2_16: 6918662605219769324
+      Soldado2_17: -397461431495919504
+      Soldado2_18: 7160686587947513145
+      Soldado2_19: -8622274146797842871
+      Soldado2_2: -8041943016541802303
+      Soldado2_3: -6190801820197380009
+      Soldado2_4: -1198963778409029720
+      Soldado2_5: 6457581105837175692
+      Soldado2_6: 8291097510369305011
+      Soldado2_7: -2435564628401735729
+      Soldado2_8: -5922652383305654925
+      Soldado2_9: 1959924356377558407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

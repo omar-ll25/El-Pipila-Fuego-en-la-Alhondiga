@@ -21,19 +21,14 @@ public class PlayerController : MonoBehaviour
 
     Color normalColor;
 
-    //Controller Variable WASD
     float keyHorizontal;
     bool keyJump;
     
-    //Control Variable (Validations)
     bool isGrounded;
     bool isInvincible;
     bool isFacingright;
 
     bool hitSideRight;
-
-    float shootTime;
-    bool keyShootRelease;
 
     public int currentHealth;
     public int MaxHealth = 3;
@@ -46,12 +41,10 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         normalColor = spriteRenderer.color;
 
-        //sprites face right by default
         isFacingright = true;
         currentHealth = MaxHealth;
     }
 
-    // Update is called once per frame
     void Update()
     {
         PlayerDirectionInput();

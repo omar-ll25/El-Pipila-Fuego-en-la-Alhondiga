@@ -6,9 +6,17 @@ public class GameStateManager : MonoBehaviour
 
     private IGameState currentState;
 
-    // datos que necesitan sobrevivir entre escenas
     public int currentLevelIndex;
-    public int totalLevels = 7;
+    public int totalLevels = 4;
+
+    public int highestUnlockedLevel = 1; 
+    public void UnlockNextLevel(int completedLevel)
+    {
+        if (completedLevel + 1 > highestUnlockedLevel)
+        {
+            highestUnlockedLevel = completedLevel + 1;
+        }
+    }
 
     void Awake()
     {
