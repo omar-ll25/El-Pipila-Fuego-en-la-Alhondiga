@@ -169,6 +169,6 @@ MonoBehaviour:
   bulletSpeed: 5
   bulletDestroyDelay: 3
   bulletShootPos: {fileID: 4881785243677289591}
-  bulletPrefab: {fileID: 100000, guid: 3f8b186b1c7f4fca837852a8bff67c90, type: 3}
+  bulletPrefab: {fileID: 100000, guid: 727b7711d70c2b8449ce2b4806406cf7, type: 3}
   bulletsBounce: 1
   maxBounces: 2
