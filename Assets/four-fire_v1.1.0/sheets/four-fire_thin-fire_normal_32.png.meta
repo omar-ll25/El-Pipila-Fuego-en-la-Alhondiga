@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 0ed225fc8264a3945aac9f3d668279a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8858428474904573022
+    second: four-fire_thin-fire_normal_32_0
+  - first:
+      213: 1434188995477514897
+    second: four-fire_thin-fire_normal_32_1
+  - first:
+      213: 8641279098726895053
+    second: four-fire_thin-fire_normal_32_2
+  - first:
+      213: -8914207798172540315
+    second: four-fire_thin-fire_normal_32_3
+  - first:
+      213: -4272745948880504209
+    second: four-fire_thin-fire_normal_32_4
+  - first:
+      213: -6989791046700362323
+    second: four-fire_thin-fire_normal_32_5
+  - first:
+      213: -5017748146941944336
+    second: four-fire_thin-fire_normal_32_6
+  - first:
+      213: 6050718297809213444
+    second: four-fire_thin-fire_normal_32_7
+  - first:
+      213: 2673280557028184659
+    second: four-fire_thin-fire_normal_32_8
+  - first:
+      213: 1947188935996304099
+    second: four-fire_thin-fire_normal_32_9
+  - first:
+      213: 4928586989535429955
+    second: four-fire_thin-fire_normal_32_10
+  - first:
+      213: -6685178116764837162
+    second: four-fire_thin-fire_normal_32_11
+  - first:
+      213: 5747097267716702192
+    second: four-fire_thin-fire_normal_32_12
+  - first:
+      213: -263692302555583193
+    second: four-fire_thin-fire_normal_32_13
+  - first:
+      213: -5673938588347081541
+    second: four-fire_thin-fire_normal_32_14
+  - first:
+      213: -8686858625667619893
+    second: four-fire_thin-fire_normal_32_15
+  - first:
+      213: -8069275949000733293
+    second: four-fire_thin-fire_normal_32_16
+  - first:
+      213: -5387871643954477529
+    second: four-fire_thin-fire_normal_32_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab8b1d6c3a801580800000000000000
+      internalID: -8858428474904573022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a2630fa4347e310800000000000000
+      internalID: 1434188995477514897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdcf9c8e8dfbe770800000000000000
+      internalID: 8641279098726895053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562a8efac3f5a4480800000000000000
+      internalID: -8914207798172540315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 15
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6afc7d823824b4c0800000000000000
+      internalID: -4272745948880504209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5183793164ffe90800000000000000
+      internalID: -6989791046700362323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd962145a06d5ab0800000000000000
+      internalID: -5017748146941944336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408dfd8db3878f350800000000000000
+      internalID: 6050718297809213444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3529f92c086691520800000000000000
+      internalID: 2673280557028184659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea61a8450ec50b10800000000000000
+      internalID: 1947188935996304099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3450fd311cbd56440800000000000000
+      internalID: 4928586989535429955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da54022ce97933a0800000000000000
+      internalID: -6685178116764837162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_12
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff3fdbf38ac1cf40800000000000000
+      internalID: 5747097267716702192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_13
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d6b287f3d275cf0800000000000000
+      internalID: -263692302555583193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcd03c6aee1241b0800000000000000
+      internalID: -5673938588347081541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_15
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc32b0bda14127780800000000000000
+      internalID: -8686858625667619893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_16
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d4539f64c240090800000000000000
+      internalID: -8069275949000733293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: four-fire_thin-fire_normal_32_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72681b6394f6a35b0800000000000000
+      internalID: -5387871643954477529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      four-fire_thin-fire_normal_32_0: -8858428474904573022
+      four-fire_thin-fire_normal_32_1: 1434188995477514897
+      four-fire_thin-fire_normal_32_10: 4928586989535429955
+      four-fire_thin-fire_normal_32_11: -6685178116764837162
+      four-fire_thin-fire_normal_32_12: 5747097267716702192
+      four-fire_thin-fire_normal_32_13: -263692302555583193
+      four-fire_thin-fire_normal_32_14: -5673938588347081541
+      four-fire_thin-fire_normal_32_15: -8686858625667619893
+      four-fire_thin-fire_normal_32_16: -8069275949000733293
+      four-fire_thin-fire_normal_32_17: -5387871643954477529
+      four-fire_thin-fire_normal_32_2: 8641279098726895053
+      four-fire_thin-fire_normal_32_3: -8914207798172540315
+      four-fire_thin-fire_normal_32_4: -4272745948880504209
+      four-fire_thin-fire_normal_32_5: -6989791046700362323
+      four-fire_thin-fire_normal_32_6: -5017748146941944336
+      four-fire_thin-fire_normal_32_7: 6050718297809213444
+      four-fire_thin-fire_normal_32_8: 2673280557028184659
+      four-fire_thin-fire_normal_32_9: 1947188935996304099
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

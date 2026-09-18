@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 50cc99adfe63a2e4ba570cf7579efbeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4540526151356928430
+    second: Pipila1_0
+  - first:
+      213: -3601646972905417417
+    second: Pipila1_1
+  - first:
+      213: -3536024489389853309
+    second: Pipila1_2
+  - first:
+      213: 7381571221242084571
+    second: Pipila1_3
+  - first:
+      213: 9130788365083486668
+    second: Pipila1_4
+  - first:
+      213: 6236980293220316325
+    second: Pipila1_5
+  - first:
+      213: -1654685729266013437
+    second: Pipila1_6
+  - first:
+      213: -460157767000564800
+    second: Pipila1_7
+  - first:
+      213: 8678409559196410832
+    second: Pipila1_8
+  - first:
+      213: -6610925938187238358
+    second: Pipila1_9
+  - first:
+      213: 3276810681160244816
+    second: Pipila1_10
+  - first:
+      213: 6431833603720023962
+    second: Pipila1_11
+  - first:
+      213: 5179328549041862563
+    second: Pipila1_12
+  - first:
+      213: -8033067967761866024
+    second: Pipila1_13
+  - first:
+      213: 3196087444952858526
+    second: Pipila1_14
+  - first:
+      213: 5783720405378385223
+    second: Pipila1_15
+  - first:
+      213: -3465521472227344380
+    second: Pipila1_16
+  - first:
+      213: -2836934324864734579
+    second: Pipila1_17
+  - first:
+      213: 5509833940952556072
+    second: Pipila1_18
+  - first:
+      213: 7721766584235124733
+    second: Pipila1_19
+  - first:
+      213: -3772042837150192693
+    second: Pipila1_20
+  - first:
+      213: 7353318686183220617
+    second: Pipila1_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pipila1_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 714
+        width: 155
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eaff6a58fccf0c0800000000000000
+      internalID: -4540526151356928430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 714
+        width: 152
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7359c951921640ec0800000000000000
+      internalID: -3601646972905417417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 714
+        width: 151
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385f5d826748deec0800000000000000
+      internalID: -3536024489389853309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 715
+        width: 146
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc716e9aeb907660800000000000000
+      internalID: 7381571221242084571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 293
+        width: 215
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4328028843e8650800000000000000
+      internalID: 6236980293220316325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 354
+        width: 169
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30be03c98106909e0800000000000000
+      internalID: -1654685729266013437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_7
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 356
+        width: 177
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb5b4de2f03d99f0800000000000000
+      internalID: -460157767000564800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_8
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 309
+        width: 183
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3a14f8387ef6870800000000000000
+      internalID: 8678409559196410832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 10
+        width: 215
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a240fe9a2e54144a0800000000000000
+      internalID: -6610925938187238358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 86
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e13c604f1997d20800000000000000
+      internalID: 3276810681160244816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 13
+        width: 252
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f0724d596724950800000000000000
+      internalID: 6431833603720023962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_12
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 15
+        width: 314
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7fda4cfdba0e740800000000000000
+      internalID: 5179328549041862563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_15
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 22
+        width: 270
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745c1c2b017e34050800000000000000
+      internalID: 5783720405378385223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipila1_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 12
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb2b16560307abc0800000000000000
+      internalID: -3772042837150192693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e4732a8859104a14c9843f54d5b8b85f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pipila1_0: -4540526151356928430
+      Pipila1_1: -3601646972905417417
+      Pipila1_10: 3276810681160244816
+      Pipila1_11: 6431833603720023962
+      Pipila1_12: 5179328549041862563
+      Pipila1_13: -8033067967761866024
+      Pipila1_14: 3196087444952858526
+      Pipila1_15: 5783720405378385223
+      Pipila1_16: -3465521472227344380
+      Pipila1_17: -2836934324864734579
+      Pipila1_18: 5509833940952556072
+      Pipila1_19: 7721766584235124733
+      Pipila1_2: -3536024489389853309
+      Pipila1_20: -3772042837150192693
+      Pipila1_21: 7353318686183220617
+      Pipila1_3: 7381571221242084571
+      Pipila1_4: 9130788365083486668
+      Pipila1_5: 6236980293220316325
+      Pipila1_6: -1654685729266013437
+      Pipila1_7: -460157767000564800
+      Pipila1_8: 8678409559196410832
+      Pipila1_9: -6610925938187238358
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

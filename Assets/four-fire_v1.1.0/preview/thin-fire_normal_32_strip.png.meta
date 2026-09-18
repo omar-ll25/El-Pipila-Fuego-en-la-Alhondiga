@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: ee3781d0014c6284c842bd77ebe51a5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8830827657246814362
+    second: thin-fire_normal_32_strip_0
+  - first:
+      213: -5419556504828625069
+    second: thin-fire_normal_32_strip_1
+  - first:
+      213: 4102225996587955876
+    second: thin-fire_normal_32_strip_2
+  - first:
+      213: -7094809319860121431
+    second: thin-fire_normal_32_strip_3
+  - first:
+      213: 1380118036702453492
+    second: thin-fire_normal_32_strip_4
+  - first:
+      213: -4822693168370204562
+    second: thin-fire_normal_32_strip_5
+  - first:
+      213: 8042231007583475011
+    second: thin-fire_normal_32_strip_6
+  - first:
+      213: -2994139974631843710
+    second: thin-fire_normal_32_strip_7
+  - first:
+      213: -2754688658839787454
+    second: thin-fire_normal_32_strip_8
+  - first:
+      213: 5903646814327296814
+    second: thin-fire_normal_32_strip_9
+  - first:
+      213: -1508940692171877282
+    second: thin-fire_normal_32_strip_10
+  - first:
+      213: -2742290499694855968
+    second: thin-fire_normal_32_strip_11
+  - first:
+      213: 919407592512741814
+    second: thin-fire_normal_32_strip_12
+  - first:
+      213: -5329355972172735291
+    second: thin-fire_normal_32_strip_13
+  - first:
+      213: 9062641316451714107
+    second: thin-fire_normal_32_strip_14
+  - first:
+      213: -6896566537542083446
+    second: thin-fire_normal_32_strip_15
+  - first:
+      213: 239552805141743220
+    second: thin-fire_normal_32_strip_16
+  - first:
+      213: -5506943442727653918
+    second: thin-fire_normal_32_strip_17
+  - first:
+      213: -8007885486294096292
+    second: thin-fire_normal_32_strip_18
+  - first:
+      213: -8528357747695145753
+    second: thin-fire_normal_32_strip_19
+  - first:
+      213: -2427546085714408766
+    second: thin-fire_normal_32_strip_20
+  - first:
+      213: 6004294065567816806
+    second: thin-fire_normal_32_strip_21
+  - first:
+      213: 1808711746886921317
+    second: thin-fire_normal_32_strip_22
+  - first:
+      213: 8957186345571314638
+    second: thin-fire_normal_32_strip_23
+  - first:
+      213: 8376056685624900970
+    second: thin-fire_normal_32_strip_24
+  - first:
+      213: 397676194065284001
+    second: thin-fire_normal_32_strip_25
+  - first:
+      213: 5280711671415758202
+    second: thin-fire_normal_32_strip_26
+  - first:
+      213: 7280447165285839690
+    second: thin-fire_normal_32_strip_27
+  - first:
+      213: -2708389031679652617
+    second: thin-fire_normal_32_strip_28
+  - first:
+      213: -5816100973465701029
+    second: thin-fire_normal_32_strip_29
+  - first:
+      213: -1975626767806864740
+    second: thin-fire_normal_32_strip_30
+  - first:
+      213: -1606851022823029562
+    second: thin-fire_normal_32_strip_31
+  - first:
+      213: 6089357919570909902
+    second: thin-fire_normal_32_strip_32
+  - first:
+      213: -7831273232207824643
+    second: thin-fire_normal_32_strip_33
+  - first:
+      213: -1697854610779219865
+    second: thin-fire_normal_32_strip_34
+  - first:
+      213: 714316749426817752
+    second: thin-fire_normal_32_strip_35
+  - first:
+      213: -4942238864810171663
+    second: thin-fire_normal_32_strip_36
+  - first:
+      213: 3990540164957653376
+    second: thin-fire_normal_32_strip_37
+  - first:
+      213: -2314124169684923255
+    second: thin-fire_normal_32_strip_38
+  - first:
+      213: -5281944010057841666
+    second: thin-fire_normal_32_strip_39
+  - first:
+      213: 7918548436680023870
+    second: thin-fire_normal_32_strip_40
+  - first:
+      213: 247582808851980990
+    second: thin-fire_normal_32_strip_41
+  - first:
+      213: -2401078903874087175
+    second: thin-fire_normal_32_strip_42
+  - first:
+      213: -5383295461007309061
+    second: thin-fire_normal_32_strip_43
+  - first:
+      213: -3994772905664233650
+    second: thin-fire_normal_32_strip_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 83
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fcb119809927580800000000000000
+      internalID: -8830827657246814362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 99
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f3889a21ed9c4b0800000000000000
+      internalID: -5419556504828625069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 83
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a67ff23fc80ee830800000000000000
+      internalID: 4102225996587955876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 91
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a05b94738c2a8d90800000000000000
+      internalID: -7094809319860121431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_4
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe52cdca0a272310800000000000000
+      internalID: 1380118036702453492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_5
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 103
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6047967d1a521db0800000000000000
+      internalID: -4822693168370204562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 91
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34515a8ed7ebb9f60800000000000000
+      internalID: 8042231007583475011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_7
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 95
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28895448e8da276d0800000000000000
+      internalID: -2994139974631843710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_8
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 103
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248ae0f724165c9d0800000000000000
+      internalID: -2754688658839787454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 75
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23585faf77fde150800000000000000
+      internalID: 5903646814327296814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 79
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5496f76f6a2f0be0800000000000000
+      internalID: -1508940692171877282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 38
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e872ced15d61f9d0800000000000000
+      internalID: -2742290499694855968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 63
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1e48b855462cc00800000000000000
+      internalID: 919407592512741814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 79
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc990dbaf25a06b0800000000000000
+      internalID: -5329355972172735291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_14
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 83
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3402e9e248f4cd70800000000000000
+      internalID: 9062641316451714107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_15
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 0
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c55ff06497a40a0800000000000000
+      internalID: -6896566537542083446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_16
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 79
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4760c6fc100135300800000000000000
+      internalID: 239552805141743220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_17
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 87
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed2d0aad186393b0800000000000000
+      internalID: -5506943442727653918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_18
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 87
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c562f6be3964ed090800000000000000
+      internalID: -8007885486294096292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_19
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec2e2b40df25a980800000000000000
+      internalID: -8528357747695145753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_20
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 83
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca4a1d52bf9f4ed0800000000000000
+      internalID: -2427546085714408766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_21
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 87
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cd729f3a9835350800000000000000
+      internalID: 6004294065567816806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_22
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 0
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c654630c5d91910800000000000000
+      internalID: 1808711746886921317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_23
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 0
+        width: 46
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbe1ca26815e4c70800000000000000
+      internalID: 8957186345571314638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 38
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d35356d2bbd3470800000000000000
+      internalID: 8376056685624900970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_25
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abf3ea3464d48500800000000000000
+      internalID: 397676194065284001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_26
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 59
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ddef7694bd84940800000000000000
+      internalID: 5280711671415758202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_27
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43bcd49f18590560800000000000000
+      internalID: 7280447165285839690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc8b2d768ed96ad0800000000000000
+      internalID: -2708389031679652617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_29
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55f5cacafe094fa0800000000000000
+      internalID: -5816100973465701029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_30
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 0
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c926e180ce92594e0800000000000000
+      internalID: -1975626767806864740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_31
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c409a9128153b9e0800000000000000
+      internalID: -1606851022823029562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_32
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca5c3ad3ceb18450800000000000000
+      internalID: 6089357919570909902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_33
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 0
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df83a37bc7ab15390800000000000000
+      internalID: -7831273232207824643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_34
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 0
+        width: 50
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768de342a320078e0800000000000000
+      internalID: -1697854610779219865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_35
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 71
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da72ba8c43c9e900800000000000000
+      internalID: 714316749426817752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_36
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f22cd300f3a96bb0800000000000000
+      internalID: -4942238864810171663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089ca32232f316730800000000000000
+      internalID: 3990540164957653376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_38
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 55
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cc8c3145492efd0800000000000000
+      internalID: -2314124169684923255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_39
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3000568e3c2b6b0800000000000000
+      internalID: -5281944010057841666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_40
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 0
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f990159d554ed60800000000000000
+      internalID: 7918548436680023870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_41
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 23
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2ad1eb0479f6300800000000000000
+      internalID: 247582808851980990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_42
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 27
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f696e85577adaed0800000000000000
+      internalID: -2401078903874087175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_43
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 35
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6cfa5dc41ba45b0800000000000000
+      internalID: -5383295461007309061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thin-fire_normal_32_strip_44
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f378f1537bf88c0800000000000000
+      internalID: -3994772905664233650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      thin-fire_normal_32_strip_0: -8830827657246814362
+      thin-fire_normal_32_strip_1: -5419556504828625069
+      thin-fire_normal_32_strip_10: -1508940692171877282
+      thin-fire_normal_32_strip_11: -2742290499694855968
+      thin-fire_normal_32_strip_12: 919407592512741814
+      thin-fire_normal_32_strip_13: -5329355972172735291
+      thin-fire_normal_32_strip_14: 9062641316451714107
+      thin-fire_normal_32_strip_15: -6896566537542083446
+      thin-fire_normal_32_strip_16: 239552805141743220
+      thin-fire_normal_32_strip_17: -5506943442727653918
+      thin-fire_normal_32_strip_18: -8007885486294096292
+      thin-fire_normal_32_strip_19: -8528357747695145753
+      thin-fire_normal_32_strip_2: 4102225996587955876
+      thin-fire_normal_32_strip_20: -2427546085714408766
+      thin-fire_normal_32_strip_21: 6004294065567816806
+      thin-fire_normal_32_strip_22: 1808711746886921317
+      thin-fire_normal_32_strip_23: 8957186345571314638
+      thin-fire_normal_32_strip_24: 8376056685624900970
+      thin-fire_normal_32_strip_25: 397676194065284001
+      thin-fire_normal_32_strip_26: 5280711671415758202
+      thin-fire_normal_32_strip_27: 7280447165285839690
+      thin-fire_normal_32_strip_28: -2708389031679652617
+      thin-fire_normal_32_strip_29: -5816100973465701029
+      thin-fire_normal_32_strip_3: -7094809319860121431
+      thin-fire_normal_32_strip_30: -1975626767806864740
+      thin-fire_normal_32_strip_31: -1606851022823029562
+      thin-fire_normal_32_strip_32: 6089357919570909902
+      thin-fire_normal_32_strip_33: -7831273232207824643
+      thin-fire_normal_32_strip_34: -1697854610779219865
+      thin-fire_normal_32_strip_35: 714316749426817752
+      thin-fire_normal_32_strip_36: -4942238864810171663
+      thin-fire_normal_32_strip_37: 3990540164957653376
+      thin-fire_normal_32_strip_38: -2314124169684923255
+      thin-fire_normal_32_strip_39: -5281944010057841666
+      thin-fire_normal_32_strip_4: 1380118036702453492
+      thin-fire_normal_32_strip_40: 7918548436680023870
+      thin-fire_normal_32_strip_41: 247582808851980990
+      thin-fire_normal_32_strip_42: -2401078903874087175
+      thin-fire_normal_32_strip_43: -5383295461007309061
+      thin-fire_normal_32_strip_44: -3994772905664233650
+      thin-fire_normal_32_strip_5: -4822693168370204562
+      thin-fire_normal_32_strip_6: 8042231007583475011
+      thin-fire_normal_32_strip_7: -2994139974631843710
+      thin-fire_normal_32_strip_8: -2754688658839787454
+      thin-fire_normal_32_strip_9: 5903646814327296814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

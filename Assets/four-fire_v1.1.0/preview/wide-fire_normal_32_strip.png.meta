@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: d59a9e7c32070154a86c50df117b1701
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 872983628304319330
+    second: wide-fire_normal_32_strip_0
+  - first:
+      213: 4607805330299726284
+    second: wide-fire_normal_32_strip_1
+  - first:
+      213: 1745232890470108603
+    second: wide-fire_normal_32_strip_2
+  - first:
+      213: 1337583957852736844
+    second: wide-fire_normal_32_strip_3
+  - first:
+      213: 6317412822990977457
+    second: wide-fire_normal_32_strip_4
+  - first:
+      213: 9165661647757852066
+    second: wide-fire_normal_32_strip_5
+  - first:
+      213: -6911863268866403149
+    second: wide-fire_normal_32_strip_6
+  - first:
+      213: -7964655505819715760
+    second: wide-fire_normal_32_strip_7
+  - first:
+      213: 5853719965772706118
+    second: wide-fire_normal_32_strip_8
+  - first:
+      213: 4125817167548513481
+    second: wide-fire_normal_32_strip_9
+  - first:
+      213: -9209446506457561449
+    second: wide-fire_normal_32_strip_10
+  - first:
+      213: 1576126751655926394
+    second: wide-fire_normal_32_strip_11
+  - first:
+      213: 1183790842305109473
+    second: wide-fire_normal_32_strip_12
+  - first:
+      213: 186767736837512580
+    second: wide-fire_normal_32_strip_13
+  - first:
+      213: 9131973658761930135
+    second: wide-fire_normal_32_strip_14
+  - first:
+      213: -1681058360713916879
+    second: wide-fire_normal_32_strip_15
+  - first:
+      213: -2581412850217858220
+    second: wide-fire_normal_32_strip_16
+  - first:
+      213: -6522588459820606927
+    second: wide-fire_normal_32_strip_17
+  - first:
+      213: 3750627768744902621
+    second: wide-fire_normal_32_strip_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_0
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 107
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2638fc31cf57d1c00800000000000000
+      internalID: 872983628304319330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 115
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9aaa2e88632ff30800000000000000
+      internalID: 4607805330299726284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 119
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd8cc63110583810800000000000000
+      internalID: 1745232890470108603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 0
+        width: 70
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc219d58d009210800000000000000
+      internalID: 1337583957852736844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9ffddcd75fba750800000000000000
+      internalID: 6317412822990977457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 70
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad3706f4b8f23f70800000000000000
+      internalID: 9165661647757852066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d5234af02410a0800000000000000
+      internalID: -6911863268866403149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057b149140cd77190800000000000000
+      internalID: -7964655505819715760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 66
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6417e766b479c3150800000000000000
+      internalID: 5853719965772706118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccffe7bad8d14930800000000000000
+      internalID: 4125817167548513481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 70
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79682a43239713080800000000000000
+      internalID: -9209446506457561449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_11
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 0
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a11711ee68fd510800000000000000
+      internalID: 1576126751655926394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_12
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 0
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edd4f3cf7bad6010800000000000000
+      internalID: 1183790842305109473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_13
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 0
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d14b16448879200800000000000000
+      internalID: 186767736837512580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_14
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 0
+        width: 74
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795aabcc8a94bbe70800000000000000
+      internalID: 9131973658761930135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_15
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 0
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e42fad35eaba8e0800000000000000
+      internalID: -1681058360713916879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_16
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 66
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc22c80bafc2cd0800000000000000
+      internalID: -2581412850217858220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_17
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 0
+        width: 66
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a945c9a5c1b75a0800000000000000
+      internalID: -6522588459820606927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wide-fire_normal_32_strip_18
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 0
+        width: 70
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf71c08518ec0430800000000000000
+      internalID: 3750627768744902621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wide-fire_normal_32_strip_0: 872983628304319330
+      wide-fire_normal_32_strip_1: 4607805330299726284
+      wide-fire_normal_32_strip_10: -9209446506457561449
+      wide-fire_normal_32_strip_11: 1576126751655926394
+      wide-fire_normal_32_strip_12: 1183790842305109473
+      wide-fire_normal_32_strip_13: 186767736837512580
+      wide-fire_normal_32_strip_14: 9131973658761930135
+      wide-fire_normal_32_strip_15: -1681058360713916879
+      wide-fire_normal_32_strip_16: -2581412850217858220
+      wide-fire_normal_32_strip_17: -6522588459820606927
+      wide-fire_normal_32_strip_18: 3750627768744902621
+      wide-fire_normal_32_strip_2: 1745232890470108603
+      wide-fire_normal_32_strip_3: 1337583957852736844
+      wide-fire_normal_32_strip_4: 6317412822990977457
+      wide-fire_normal_32_strip_5: 9165661647757852066
+      wide-fire_normal_32_strip_6: -6911863268866403149
+      wide-fire_normal_32_strip_7: -7964655505819715760
+      wide-fire_normal_32_strip_8: 5853719965772706118
+      wide-fire_normal_32_strip_9: 4125817167548513481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

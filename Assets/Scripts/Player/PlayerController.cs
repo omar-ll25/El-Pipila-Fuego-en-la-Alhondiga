@@ -7,20 +7,26 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Animator animator;
+    [SerializeField] Animator losaAnimator;
+    [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] Rigidbody2D rb2d;
     [SerializeField] BoxCollider2D box2d;
 
     [SerializeField] float moveSpeed = 3f;
     [SerializeField] float jumpSpeed = 3f;
+    [SerializeField] float damageStaggerDuration = 1.5f;
+    [SerializeField] float damageFlashInterval = 0.1f;
+    [SerializeField] Color damageFlashColor = Color.gray;
+    [SerializeField] float deathColliderHeight = 1.5f;
+
+    Color normalColor;
 
     //Controller Variable WASD
     float keyHorizontal;
     bool keyJump;
-    bool keyShoot;
-
+    
     //Control Variable (Validations)
     bool isGrounded;
-    bool isTakingDamage;
     bool isInvincible;
     bool isFacingright;
 
@@ -30,13 +36,15 @@ public class PlayerController : MonoBehaviour
     bool keyShootRelease;
 
     public int currentHealth;
-    public int MaxHealth = 28;
+    public int MaxHealth = 3;
 
     void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         box2d = GetComponent<BoxCollider2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        normalColor = spriteRenderer.color;
 
         //sprites face right by default
         isFacingright = true;
@@ -46,14 +54,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isTakingDamage)
-        {
-            animator.Play("Player_Hit");
-            return;
-        }
         PlayerDirectionInput();
         PlayerJumpInput();
         PlayerMovement();
+    }
+
+    void PlayAnimation(Animator anim, string stateName)
+    {
+        if (anim == null) return;
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName(stateName)) return;
+        anim.Play(stateName);
     }
 
     void PlayerDirectionInput()
@@ -120,13 +130,6 @@ public class PlayerController : MonoBehaviour
             {
                 Flip();
             }
-            if (isGrounded)
-            {
-                {
-                    animator.Play("Player_Walk");
-                }
-
-            }
             rb2d.linearVelocity = new Vector2(-moveSpeed, rb2d.linearVelocity.y);
         }
         else if (keyHorizontal > 0)
@@ -135,32 +138,34 @@ public class PlayerController : MonoBehaviour
             {
                 Flip();
             }
-            if (isGrounded)
-            {
-                animator.Play("Player_Walk");
-            }
             rb2d.linearVelocity = new Vector2(moveSpeed, rb2d.linearVelocity.y);
         }
         else
         {
-            if (isGrounded)
-            {
-                animator.Play("Player_Idle");
-            }
             rb2d.linearVelocity = new Vector2(0f, rb2d.linearVelocity.y);
         }
 
-
         if (keyJump && isGrounded)
         {
-            animator.Play("Player_Jump");
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
-
         }
 
+        UpdatePlayerAnimation();
+    }
+
+    void UpdatePlayerAnimation()
+    {
         if (!isGrounded)
         {
-            animator.Play("Player_MidAir");
+            PlayAnimation(animator, "Jump");
+        }
+        else if (keyHorizontal != 0f)
+        {
+            PlayAnimation(animator, "Run");
+        }
+        else
+        {
+            PlayAnimation(animator, "PlayerIdle");
         }
     }
 
@@ -185,46 +190,73 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (!isInvincible)
+        if (isInvincible) return;
+
+        currentHealth = Mathf.Clamp(currentHealth - damage, 0, MaxHealth);
+        if (UIHealthBar.instance != null)
         {
-            currentHealth -= damage;
-            Mathf.Clamp(currentHealth, 0, MaxHealth );
-            UIHealthBar.instance.SetValue(currentHealth/(float)MaxHealth);
-            if (currentHealth <= 0)
-            {
-                Defeat();
-            }
-            else
-            {
-                StartDamageAnimation();
-            }
+            UIHealthBar.instance.SetValue(currentHealth / (float)MaxHealth);
+        }
+
+        if (currentHealth <= 0)
+        {
+            Defeat();
+        }
+        else
+        {
+            StartDamageAnimation();
+            UpdateLosaDamageState();
+        }
+    }
+
+    void UpdateLosaDamageState()
+    {
+        if (losaAnimator == null) return;
+
+        if (currentHealth == 2)
+        {
+            PlayAnimation(losaAnimator, "Cracking");
+        }
+        else if (currentHealth == 1)
+        {
+            PlayAnimation(losaAnimator, "Breaking");
         }
     }
 
     void StartDamageAnimation()
     {
-        if (!isTakingDamage)
-        {
-            isTakingDamage = true;
-            isInvincible = true;
-            float hitForceX = 0.50f;
-            float hitForceY = 1.50f;
-            if (hitSideRight) hitForceX = -hitForceX;
-            rb2d.linearVelocity = Vector2.zero;
-            rb2d.AddForce(new Vector2(hitForceX, hitForceY), ForceMode2D.Impulse);
-        }
+        isInvincible = true;
+        float hitForceX = 0.50f;
+        float hitForceY = 1.50f;
+        if (hitSideRight) hitForceX = -hitForceX;
+        rb2d.AddForce(new Vector2(hitForceX, hitForceY), ForceMode2D.Impulse);
+        StartCoroutine(DamageFlashRoutine());
     }
 
-    void StopDamageAnimation()
+    IEnumerator DamageFlashRoutine()
     {
-        isTakingDamage = false;
+        float elapsed = 0f;
+        bool showFlash = true;
+
+        while (elapsed < damageStaggerDuration)
+        {
+            spriteRenderer.color = showFlash ? damageFlashColor : normalColor;
+            showFlash = !showFlash;
+            yield return new WaitForSeconds(damageFlashInterval);
+            elapsed += damageFlashInterval;
+        }
+
+        spriteRenderer.color = normalColor;
         isInvincible = false;
-        animator.Play("Player_Hit", -1, 0f);
     }
 
     void Defeat()
     {
-        Destroy(gameObject);
+        isInvincible = true;
+        rb2d.linearVelocity = Vector2.zero;
+        PlayAnimation(animator, "Death");
+        box2d.size = new Vector2(box2d.size.x, deathColliderHeight);
+        enabled = false;
     }
 
 }

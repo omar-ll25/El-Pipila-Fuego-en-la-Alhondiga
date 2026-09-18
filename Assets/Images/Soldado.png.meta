@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: de21ee941b86bd348868921e0f6bab02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6595276011548530511
+    second: Soldado_0
+  - first:
+      213: 16117650241080079
+    second: Soldado_1
+  - first:
+      213: -2436033761141283151
+    second: Soldado_2
+  - first:
+      213: -7347538521376932079
+    second: Soldado_3
+  - first:
+      213: -5850606007928416951
+    second: Soldado_4
+  - first:
+      213: -8706632013860162213
+    second: Soldado_5
+  - first:
+      213: 1638045668521076512
+    second: Soldado_6
+  - first:
+      213: -4197738834721797733
+    second: Soldado_7
+  - first:
+      213: -50602053036725370
+    second: Soldado_8
+  - first:
+      213: -6995796393064419199
+    second: Soldado_9
+  - first:
+      213: 5759735652856374439
+    second: Soldado_10
+  - first:
+      213: 8693673578195190118
+    second: Soldado_11
+  - first:
+      213: 7355354942801786850
+    second: Soldado_12
+  - first:
+      213: -6597649654613747173
+    second: Soldado_13
+  - first:
+      213: -6503961933108061528
+    second: Soldado_14
+  - first:
+      213: 8624731436940254363
+    second: Soldado_15
+  - first:
+      213: -5485085425750779534
+    second: Soldado_16
+  - first:
+      213: -2310920665236355750
+    second: Soldado_17
+  - first:
+      213: -2669177805384216564
+    second: Soldado_18
+  - first:
+      213: 6582677830725738970
+    second: Soldado_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Soldado_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 49
+        width: 712
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f475108d690278b50800000000000000
+      internalID: 6595276011548530511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Soldado_3
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 49
+        width: 766
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f34dbc4ac480a90800000000000000
+      internalID: -7347538521376932079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d0f777e9272d4b4487c9641446420c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Soldado_0: 6595276011548530511
+      Soldado_1: 16117650241080079
+      Soldado_10: 5759735652856374439
+      Soldado_11: 8693673578195190118
+      Soldado_12: 7355354942801786850
+      Soldado_13: -6597649654613747173
+      Soldado_14: -6503961933108061528
+      Soldado_15: 8624731436940254363
+      Soldado_16: -5485085425750779534
+      Soldado_17: -2310920665236355750
+      Soldado_18: -2669177805384216564
+      Soldado_19: 6582677830725738970
+      Soldado_2: -2436033761141283151
+      Soldado_3: -7347538521376932079
+      Soldado_4: -5850606007928416951
+      Soldado_5: -8706632013860162213
+      Soldado_6: 1638045668521076512
+      Soldado_7: -4197738834721797733
+      Soldado_8: -50602053036725370
+      Soldado_9: -6995796393064419199
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
