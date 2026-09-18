@@ -4,8 +4,9 @@ using UnityEngine.UI;
 public class LevelNodeButton : MonoBehaviour
 {
     [SerializeField] Button button;
-    [SerializeField] GameObject lockedIcon;
-    [SerializeField] GameObject completedIcon;
+    [SerializeField] Image buttonImage;
+    [SerializeField] Sprite availableSprite;   
+    [SerializeField] Sprite completedSprite;   
 
     LevelMapController mapController;
     int levelNumber;
@@ -19,8 +20,7 @@ public class LevelNodeButton : MonoBehaviour
     {
         levelNumber = level;
         button.interactable = unlocked;
-        lockedIcon.SetActive(!unlocked);
-        completedIcon.SetActive(completed);
+        buttonImage.sprite = completed ? completedSprite : availableSprite;
     }
 
     public void OnClick()

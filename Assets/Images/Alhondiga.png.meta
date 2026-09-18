@@ -1,19 +1,43 @@
 fileFormatVersion: 2
-guid: be64de661d1bb194ba7dc2d60cd603e7
+guid: a3a70d8fff5d4a64ab58991ba4505da1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3767660924086805162
-    second: Tiles1_0
+      213: 1541385291562344651
+    second: Alhondiga_0
   - first:
-      213: -922806827730144040
-    second: Tiles1_1
+      213: -3272747747869359723
+    second: Alhondiga_1
   - first:
-      213: 3547492606358717463
-    second: Tiles1_2
+      213: -340263613152499599
+    second: Alhondiga_2
   - first:
-      213: 7736213677792020534
-    second: Tiles1_3
+      213: 6887936072842827294
+    second: Alhondiga_3
+  - first:
+      213: 2885457271012182871
+    second: Alhondiga_4
+  - first:
+      213: -830254413368869426
+    second: Alhondiga_5
+  - first:
+      213: -6401180000609971921
+    second: Alhondiga_6
+  - first:
+      213: 1236581601299600227
+    second: Alhondiga_7
+  - first:
+      213: -3494226072549462341
+    second: Alhondiga_8
+  - first:
+      213: 9026020132719859391
+    second: Alhondiga_9
+  - first:
+      213: -4136359251948826791
+    second: Alhondiga_10
+  - first:
+      213: 2909096320888641181
+    second: Alhondiga_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,133 +146,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles1_0
+      name: Alhondiga_0
       rect:
         serializedVersion: 2
-        x: 860
-        y: 523
-        width: 193
-        height: 277
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65d9fa9f95496bbc0800000000000000
-      internalID: -3767660924086805162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_1
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 524
-        width: 221
-        height: 276
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d4f6d454188133f0800000000000000
-      internalID: -922806827730144040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_2
-      rect:
-        serializedVersion: 2
-        x: 1297
-        y: 201
-        width: 209
-        height: 276
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7140655eab93b3130800000000000000
-      internalID: 3547492606358717463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_3
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 524
-        width: 190
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 638cf4b0a5d8c5b60800000000000000
-      internalID: 7736213677792020534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_4
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 202
-        width: 87
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b798ae9e497c34387a67c287e6ad76
-      internalID: -245560482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_5
-      rect:
-        serializedVersion: 2
-        x: 1054
-        y: 523
-        width: 115
-        height: 185
+        x: 0
+        y: 102
+        width: 1448
+        height: 896
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ea026526f536227419d76de0f8acbc93
-      internalID: -1064737253
+      spriteID: bc0e59d81c9146510800000000000000
+      internalID: 1541385291562344651
       vertices: []
       indices: 
       edges: []
@@ -257,7 +171,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b72c8aca0fe550d41af814cf2c9e7cec
+    spriteID: d6c45cb15f869374bada713e1a53c945
     internalID: 0
     vertices: []
     indices: 
@@ -267,12 +181,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tiles1_0: -3767660924086805162
-      Tiles1_1: -922806827730144040
-      Tiles1_2: 3547492606358717463
-      Tiles1_3: 7736213677792020534
-      Tiles1_4: -245560482
-      Tiles1_5: -1064737253
+      Alhondiga_0: 1541385291562344651
+      Alhondiga_1: -3272747747869359723
+      Alhondiga_10: -4136359251948826791
+      Alhondiga_11: 2909096320888641181
+      Alhondiga_2: -340263613152499599
+      Alhondiga_3: 6887936072842827294
+      Alhondiga_4: 2885457271012182871
+      Alhondiga_5: -830254413368869426
+      Alhondiga_6: -6401180000609971921
+      Alhondiga_7: 1236581601299600227
+      Alhondiga_8: -3494226072549462341
+      Alhondiga_9: 9026020132719859391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: be64de661d1bb194ba7dc2d60cd603e7
+guid: 47cf95a2c3c0c09468fca23fe58e007e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3767660924086805162
-    second: Tiles1_0
+      213: 6781466859123228011
+    second: Tiles3_0
   - first:
-      213: -922806827730144040
-    second: Tiles1_1
-  - first:
-      213: 3547492606358717463
-    second: Tiles1_2
-  - first:
-      213: 7736213677792020534
-    second: Tiles1_3
+      213: 328402453411975767
+    second: Tiles3_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,123 +116,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles1_0
+      name: Tiles3_0
       rect:
         serializedVersion: 2
-        x: 860
+        x: 511
         y: 523
-        width: 193
-        height: 277
+        width: 192
+        height: 184
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65d9fa9f95496bbc0800000000000000
-      internalID: -3767660924086805162
+      spriteID: b6dbf1abd2c9c1e50800000000000000
+      internalID: 6781466859123228011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles1_1
+      name: Tiles3_1
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 524
-        width: 221
-        height: 276
+        x: 1298
+        y: 523
+        width: 223
+        height: 281
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d4f6d454188133f0800000000000000
-      internalID: -922806827730144040
+      spriteID: 752dcfa9a48be8400800000000000000
+      internalID: 328402453411975767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles1_2
+      name: Tiles3_2
       rect:
         serializedVersion: 2
         x: 1297
-        y: 201
-        width: 209
-        height: 276
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7140655eab93b3130800000000000000
-      internalID: 3547492606358717463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_3
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 524
-        width: 190
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 638cf4b0a5d8c5b60800000000000000
-      internalID: 7736213677792020534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_4
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 202
-        width: 87
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87b798ae9e497c34387a67c287e6ad76
-      internalID: -245560482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles1_5
-      rect:
-        serializedVersion: 2
-        x: 1054
-        y: 523
-        width: 115
-        height: 185
+        y: 199
+        width: 212
+        height: 280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +175,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea026526f536227419d76de0f8acbc93
-      internalID: -1064737253
+      spriteID: 7ddcde887fb04954d809fc4a5d66bde6
+      internalID: 46632632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles3_3
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 199
+        width: 139
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ccf0ce75dd6ec4bbbf027deb7faa07
+      internalID: 251247178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles3_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 523
+        width: 117
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6eb28ab24cc874682062d7f39f76e7
+      internalID: -1872498609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles3_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 523
+        width: 156
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2815b39fa99d04b439cae035aa4f9197
+      internalID: -1872526755
       vertices: []
       indices: 
       edges: []
@@ -257,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b72c8aca0fe550d41af814cf2c9e7cec
+    spriteID: 7cbfccbeee2ee894e9b6651763decc1d
     internalID: 0
     vertices: []
     indices: 
@@ -267,12 +261,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tiles1_0: -3767660924086805162
-      Tiles1_1: -922806827730144040
-      Tiles1_2: 3547492606358717463
-      Tiles1_3: 7736213677792020534
-      Tiles1_4: -245560482
-      Tiles1_5: -1064737253
+      Tiles3_0: 6781466859123228011
+      Tiles3_1: 328402453411975767
+      Tiles3_2: 46632632
+      Tiles3_3: 251247178
+      Tiles3_4: -1872498609
+      Tiles3_5: -1872526755
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator losaAnimator;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] Rigidbody2D rb2d;
-    [SerializeField] BoxCollider2D box2d;
+    [SerializeField] CapsuleCollider2D capsule2d;
 
     [SerializeField] float moveSpeed = 3f;
     [SerializeField] float jumpSpeed = 3f;
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        box2d = GetComponent<BoxCollider2D>();
+        capsule2d = GetComponent<CapsuleCollider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         normalColor = spriteRenderer.color;
 
@@ -90,10 +90,10 @@ public class PlayerController : MonoBehaviour
         int layerMask = 1 << LayerMask.NameToLayer("Ground");
 
         //goundCheck
-        Vector3 box_origin = box2d.bounds.center;
-        box_origin.y = box2d.bounds.min.y + (box2d.bounds.extents.y / 4f);
-        Vector3 box_size = box2d.bounds.size;
-        box_size.y = box2d.bounds.size.y / 4f;
+        Vector3 box_origin = capsule2d.bounds.center;
+        box_origin.y = capsule2d.bounds.min.y + (capsule2d.bounds.extents.y / 4f);
+        Vector3 box_size = capsule2d.bounds.size;
+        box_size.y = capsule2d.bounds.size.y / 4f;
         raycastHit = Physics2D.BoxCast(box_origin, box_size, 0f, Vector2.down, raycastDistance, layerMask);
 
         //player box colliding with ground layer
@@ -104,14 +104,14 @@ public class PlayerController : MonoBehaviour
 
         // draw debug lines
         raycastColor = (isGrounded) ? Color.green : Color.red;
-        Debug.DrawRay(box_origin + new Vector3(box2d.bounds.extents.x, 0),
-            Vector2.down * (box2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
+        Debug.DrawRay(box_origin + new Vector3(capsule2d.bounds.extents.x, 0),
+            Vector2.down * (capsule2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
 
-        Debug.DrawRay(box_origin - new Vector3(box2d.bounds.extents.x, 0),
-            Vector2.down * (box2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
+        Debug.DrawRay(box_origin - new Vector3(capsule2d.bounds.extents.x, 0),
+            Vector2.down * (capsule2d.bounds.extents.y / 4f + raycastDistance), raycastColor);
 
-        Debug.DrawRay(box_origin - new Vector3(box2d.bounds.extents.x, box2d.bounds.extents.y/4f +raycastDistance),
-            Vector2.right * (box2d.bounds.extents.x *2), raycastColor);
+        Debug.DrawRay(box_origin - new Vector3(capsule2d.bounds.extents.x, capsule2d.bounds.extents.y/4f +raycastDistance),
+            Vector2.right * (capsule2d.bounds.extents.x *2), raycastColor);
 
     }
 
@@ -248,8 +248,15 @@ public class PlayerController : MonoBehaviour
         isInvincible = true;
         rb2d.linearVelocity = Vector2.zero;
         PlayAnimation(animator, "Death");
-        box2d.size = new Vector2(box2d.size.x, deathColliderHeight);
+        capsule2d.size = new Vector2(capsule2d.size.x, deathColliderHeight);
         enabled = false;
+
+        Invoke(nameof(TriggerGameOver), 1.0f);
+    }
+
+    void TriggerGameOver()
+    {
+        GameOverManager.Instance.ShowGameOver();
     }
 
 }

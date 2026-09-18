@@ -124,7 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3978017965568812163}
   - component: {fileID: 4133719337486789046}
-  - component: {fileID: 1848679462702859878}
+  - component: {fileID: 1675232507632483001}
   - component: {fileID: 7179749725732032526}
   - component: {fileID: 5608942866422353403}
   - component: {fileID: 3570938119792968787}
@@ -211,8 +211,8 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!61 &1848679462702859878
-BoxCollider2D:
+--- !u!70 &1675232507632483001
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -245,18 +245,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.53962255, y: 0.08993721}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.4444444, y: 6.5333333}
-    newSize: {x: 3.52, y: 6.51}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 3.462534, y: 6.1798744}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.47622144, y: 0.059527755}
+  m_Size: {x: 2.1050727, y: 6.1761675}
+  m_Direction: 0
 --- !u!50 &7179749725732032526
 Rigidbody2D:
   serializedVersion: 5
@@ -296,11 +287,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620fcf0c85157264eab89f3731b7e5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  animator: {fileID: 0}
+  animator: {fileID: 1998278650193815105}
   losaAnimator: {fileID: 5814441165648818264}
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 4133719337486789046}
   rb2d: {fileID: 7179749725732032526}
-  box2d: {fileID: 1848679462702859878}
+  capsule2d: {fileID: 1675232507632483001}
   moveSpeed: 5
   jumpSpeed: 7
   damageStaggerDuration: 1.5

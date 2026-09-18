@@ -113,7 +113,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6595276011548530511, guid: de21ee941b86bd348868921e0f6bab02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,11 +160,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7246393272649473348}
-  fireInterval: 3
+  shootStateName: Shoot
+  idleStateName: Idle
+  fireInterval: 2
   shootAnimDuration: 0.2
   shootDirection: {x: -0.71, y: -0.8}
   bulletDamage: 1
-  bulletSpeed: 5
+  bulletSpeed: 10
   bulletDestroyDelay: 3
   bulletShootPos: {fileID: 2595455207854593107}
   bulletPrefab: {fileID: 100000, guid: 3f8b186b1c7f4fca837852a8bff67c90, type: 3}
+  bulletsBounce: 0
+  maxBounces: 2
