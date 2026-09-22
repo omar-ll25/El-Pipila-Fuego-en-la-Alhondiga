@@ -63,6 +63,16 @@ public class BulletScript : MonoBehaviour
             return;
         }
 
-        movementStrategy.OnObstacleHit(this, rb2d, other); 
+        if (other.gameObject.GetComponent<Collectible>() != null)
+        {
+            return;
+        }
+
+        if (other.gameObject.GetComponent<BulletScript>() != null)
+        {
+            return; 
+        }
+
+        movementStrategy.OnObstacleHit(this, rb2d, other);
     }
 }

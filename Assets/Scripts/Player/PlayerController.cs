@@ -251,6 +251,8 @@ public class PlayerController : MonoBehaviour
         capsule2d.size = new Vector2(capsule2d.size.x, deathColliderHeight);
         enabled = false;
 
+        LevelLogger.Instance.LevelFailed(currentHealth);
+
         Invoke(nameof(TriggerGameOver), 1.0f);
     }
 

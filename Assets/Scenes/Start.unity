@@ -315,7 +315,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Mu\xE9vete con las teclas A y D y salta con la tecla Espacio para llegar
     a la fogata y prenderla en fuego mientras evitas las balas de los enemigos y
-    los obst\xE1culos para llegar a la puerta de la Alh\xF3ndiga de Granaditas."
+    los obst\xE1culos para llegar a la puerta de la Alh\xF3ndiga de Granaditas. Consigue
+    las banderas coleccionables al tocarlas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a65e1f5e20f6ca74c8e239444d29933e, type: 2}
   m_sharedMaterial: {fileID: -1818374131829284934, guid: a65e1f5e20f6ca74c8e239444d29933e, type: 2}
@@ -1408,7 +1409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -602.56, y: 0}
+  m_AnchoredPosition: {x: -602.56, y: -47}
   m_SizeDelta: {x: 274.8723, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458607891

@@ -24,6 +24,7 @@ public class LevelState : IGameState
     public void Enter()
     {
         GameStateManager.Instance.currentLevelIndex = levelIndex;
+        LevelLogger.Instance.LevelStarted(levelIndex);
         SceneManager.LoadScene("Level_0" + levelIndex);
     }
 
